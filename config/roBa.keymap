@@ -67,6 +67,15 @@
         };
     };
 
+    macros {
+        TO_LAYER_0: TO_LAYER_0 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&TO_LAYER_0>;
+            label = "TO_LAYER_0";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 

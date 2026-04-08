@@ -63,7 +63,7 @@
             bindings =
                 <&to 0>,
                 <&macro_press>,
-                <&kp LS(N) &kp I &kp C &kp E &kp C &kp T &kp I &kp AT &kp N1 &kp N2 &kp N6 &kp N2>;
+                <&kp LS(N) &kp I &kp C &kp E &kp C &kp T &kp I &kp AT &kp N1 &kp N2 &kp N6 &kp N2 &kp ENTER>;
 
             label = "TO_LAYER_0";
         };

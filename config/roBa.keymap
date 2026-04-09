@@ -41,7 +41,7 @@
         };
 
         muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
+            bindings = <&to_layer_0 AT_SIGN>;
             key-positions = <11 10>;
         };
 
@@ -93,10 +93,10 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W           &kp E         &kp R         &kp T                                                                  &kp Y      &kp U  &kp I      &kp O    &kp P
-&kp A      &kp S           &kp D         &kp F         &kp G        &mute                                      &to 2          &kp H      &kp J  &kp K      &kp L    &kp SEMI
-&kp Z      &kp X           &kp C         &kp V         &kp B        &lt 5 DELETE                               &lt 3 MINUS    &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_WIN  &lt 1 SPACE  &mt INT_KATAKANAHIRAGANA INT_MUHENKAN      &kp BACKSPACE  &kp ENTER                             &kp ESCAPE
+&kp Q      &kp W           &kp E         &kp R         &kp T                                                      &kp Y      &kp U  &kp I      &kp O    &kp P
+&kp A      &kp S           &kp D         &kp F         &kp G        &mute                          &to 2          &kp H      &kp J  &kp K      &kp L    &kp SEMI
+&kp Z      &kp X           &kp C         &kp V         &kp B        &lt 5 DELETE                   &lt 3 MINUS    &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_WIN  &lt 1 SPACE  &mt LANGUAGE_1 LANGUAGE_2      &kp BACKSPACE  &kp ENTER                             &kp K_APPLICATION
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;

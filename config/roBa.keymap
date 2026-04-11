@@ -56,7 +56,7 @@
     combos {
         compatible = "zmk,combos";
 
-        JP_AT {
+        jp_at {
             bindings = <&kp JP_AT>;
             key-positions = <2 1>;
         };
@@ -91,52 +91,52 @@
             key-positions = <23 22>;
         };
 
-        F2_key {
+        f2_key {
             bindings = <&kp F2>;
             key-positions = <6 7>;
         };
 
-        F6_key {
+        f6_key {
             bindings = <&kp F6>;
             key-positions = <18 19>;
         };
 
-        F7_key {
+        f7_key {
             bindings = <&kp F7>;
             key-positions = <30 31>;
         };
 
-        F8_key {
+        f8_key {
             bindings = <&kp F8>;
             key-positions = <7 8>;
         };
 
-        F9_key {
+        f9_key {
             bindings = <&kp F9>;
             key-positions = <19 20>;
         };
 
-        F10_key {
+        f10_key {
             bindings = <&kp F10>;
             key-positions = <31 32>;
         };
 
-        ESC_key {
+        esc_key {
             bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
         };
 
-        HOME_key {
+        hoe_key {
             bindings = <&kp HOME>;
             key-positions = <17 18>;
         };
 
-        END_key {
+        end_key {
             bindings = <&kp END>;
             key-positions = <29 30>;
         };
 
-        Hyphen {
+        hyphen {
             bindings = <&kp MINUS>;
             key-positions = <5 6>;
         };

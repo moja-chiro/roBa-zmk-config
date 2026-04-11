@@ -58,27 +58,57 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <11 12>;
+            key-positions = <12 13>;
         };
 
         shift_tab {
             bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
+            key-positions = <12 11>;
         };
 
-        muhennkann {
-            bindings = <&to_layer_0 AT_SIGN>;
-            key-positions = <11 10>;
+        up_arrow {
+            bindings = <&kp UP_ARROW>;
+            key-positions = <2 3>;
         };
 
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
+        down_arrow {
+            bindings = <&kp DOWN_ARROW>;
+            key-positions = <25 24>;
         };
 
-        eq {
-            bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
+        right_arrow {
+            bindings = <&kp RIGHT_ARROW>;
+            key-positions = <24 23>;
+        };
+
+        F2_key {
+            bindings = <&kp F2>;
+            key-positions = <6 7>;
+        };
+
+        F6_key {
+            bindings = <&kp F6>;
+            key-positions = <18 19>;
+        };
+
+        F7_key {
+            bindings = <&kp F7>;
+            key-positions = <30 31>;
+        };
+
+        F8_key {
+            bindings = <&kp F8>;
+            key-positions = <7 8>;
+        };
+
+        F9_key {
+            bindings = <&kp F9>;
+            key-positions = <19 20>;
+        };
+
+        F10_key {
+            bindings = <&kp F10>;
+            key-positions = <31 32>;
         };
     };
 

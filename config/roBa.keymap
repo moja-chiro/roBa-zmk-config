@@ -221,7 +221,7 @@
             bindings = <
 &kp ESCAPE       &kp NUMBER_7      &kp NUMBER_8   &kp NUMBER_9   &kp SPACE                               &kp JP_LBRACKET     &kp JP_RBRACKET   &kp JP_TILDE       &kp JP_CARET    &kp JP_YEN
 &kp UP_ARROW     &kp NUMBER_4      &kp NUMBER_5   &kp NUMBER_6   &kp DOT          &trans        &trans   &kp JP_LBRACE       &kp JP_RBRACE     &kp JP_BACKQUOTE   &kp SEMICOLON   &kp JP_COLON
-&kp DOWN_ARROW   &kp NUMBER_1      &kp NUMBER_2   &kp NUMBER_3   &kp NUMBER_0     &kp DELETE    &RCTRL   &kp JP_UNDERSCORE   &trans            &trans             &trans          &trans
+&kp DOWN_ARROW   &kp NUMBER_1      &kp NUMBER_2   &kp NUMBER_3   &kp NUMBER_0     &kp DELETE    &kp RCTRL   &kp JP_UNDERSCORE   &trans            &trans             &trans          &trans
 &kp LEFT_ARROW   &kp RIGHT_ARROW   &trans         &trans         &kp LEFT_SHIFT   &trans        &trans   &trans                                                                   &to 0
             >;
         };
